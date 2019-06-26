@@ -10,20 +10,19 @@ If you ever wanted to add the official mission pack know as Team Arena to the Qu
 The game is fully playable.
 The script provides an automatic installation and uninstallation for compiling and building on Raspberry Pi and RetroPie.
 
-Install time: 5-10 minutes
+Install time: 10-15 minutes
 
 **Build process:**
 1: Download and install necessary required libs for SDL2.
-2: Create folder julius or clone from github.
-3: Compile/install julius source port
-4: Copy Caesar 3 data into ports/caesar3 folder from Caesar 3 installation (GOG).
-5: Create shortcut on Raspbian desktop or create Caesar III.sh file into Ports folder in RetroPie.
+2: Install quake3 first.
+3: Add teamarena roms folder
+4: Add teamarena as a port of its own.
 
 **In order to play:**
-Add all data files from your Caesar 3 installation folder to /home/pi/RetroPie/roms/ports/caesar3. This could be from the GOG version.
+Add the pak files (pak0.pk3, pak1.pk3, pak2.pk3 and pak3.pk3) from your Quake 3 Team Arena installation to /home/pi/RetroPie/roms/ports/teamarena"
 
 **Notes:**
-This build works great. I have not seen any bugs yet.
+This build works just as great as Quake3.
 
 **Disclaimer:**
 This installation script is provided as is. Im not responsible for anything happening with your Raspberry Pi including corruption of SD card, Hardware damage. For support and help you can contact me here on RetroPie forums.
